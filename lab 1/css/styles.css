@@ -25,7 +25,7 @@ p {
 	line-height: 1.7em;
 }
 
-#header {
+header {
 	margin: 40px auto;
 }
 
@@ -42,7 +42,7 @@ p {
 }
 
 #table_href p {
-	font-size: 32px;
+	font-size: 36px;
 }
 
 .subtitle {
@@ -68,14 +68,14 @@ p {
 	text-transform: uppercase;
 	color: white;
 	background: black;
-	padding: 4px;
+	padding: 6px;
 	font-size: 20px;
 	margin: 0;
 }
 
 .big_table .content {
-	padding: 24px 230px 40px 40px;
-	margin-right: 20px;
+	padding: 20px 230px 40px 40px;
+	margin-right: 10px;
 	background: url("../images/img6.png") bottom right no-repeat;
 }
 
