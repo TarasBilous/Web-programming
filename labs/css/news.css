@@ -1,0 +1,40 @@
+ /* * * * * * * * * * * * *
+ 		SECTION 1
+ * * * * * * * * * * * * */
+ .first .content {
+	background: #606060;
+	padding: 30px;
+}
+ .first h1 {
+	text-align: center;
+}
+ .news {
+	margin-top: 20px;
+	display: flex;
+}
+ .news-block {     
+ 	width: 289px;     
+ 	height: 350px;     
+ 	background: #0d0d0d;
+	padding: 20px;     
+	border-radius: 10px;     
+	box-sizing: border-box;     
+	color:#eee;     
+	cursor: pointer; 
+}
+ .news-flex-block {
+	flex: 1;
+}
+ .news-img {
+	max-width: 100%;
+	max-height: 50%;
+}
+ .news-block h3 {
+	text-align: center;
+	margin-top: 8px;
+}
+ .news-block p {
+	margin: 0;
+	font-size: 14px;
+	margin-top: 12px;
+} 
