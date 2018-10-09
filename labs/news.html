@@ -1,122 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=utf-8>
-    <title>Liquid</title>
-    <link rel="icon" href="images/tab_logo.png">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/news.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta charset=utf-8>
+	<title>Liquid</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/news.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>	
 <body>
 	<header>
-		<nav class="nav">
-			<ul class="nav-list">
-				<li><a href= "index.html" >main </a></li>
-				<li class="expandable">
-					<a href="">matches⯆</a>
-					<div class="sublist">
-						<a href="">Calendar</a>
-						<a href="">Bets</a>
-						<a href="">Tournaments</a>
-						<a href="">Rating</a>
-					</div>
-				</li>
-				<li><a href= "news.html" >news </a></li>
-				<li><a href="">fans</a></li>
-				<li><a href= "" >contacts </a></li>
-				<li><a href="">admin</a></li>
-			</ul>
-			<img src="images/logo.jpg" alt="logo" class="logo">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">main</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							matches
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Calendar</a>
+							<a class="dropdown-item" href="#">Bets</a>
+							<a class="dropdown-item" href="#">Tournaments</a>
+							<a class="dropdown-item" href="#">Rating</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">fans</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href= "news.html" >news </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">contacts</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">admin</a>
+					</li>
+					<li class="nav-item">
+						<img src="images/logo.jpg" alt="logo" class="logo">
+					</li>
+				</ul>
+			</div>
 		</nav>
 	</header>
-    <content>
-    	<section class="first">
-    		<div class="content">
-    			<h1>Counter-Strike news</h1>
-    			<div class="news">
-    				<div class="news-flex-block">
-	    				<div class="news-block">
-	    					<img src="images/csImg.jpg" alt="news image" class="news-img">
-	    					<div class="news-content">
-	    						<h3>News title</h3>
-	    						<p>Team Liquid is one of the largest esports brands in the West. Our players compete at the highest level in StarCraft 2, League of Legends, Dota 2, Hearthstone, CS:GO, Heroes of the Storm, Halo, Street Fighter, Smash and PUBG.</p>
-	    					</div>
-	    				</div>
-	    			</div>
-	    			<div class="news-flex-block">
-	    				<div class="news-block">
-	    					<img src="images/csImg.jpg" alt="news image" class="news-img">
-	    					<div class="news-content">
-	    						<h3>News title</h3>
-	    						<p>Deimos Esports and Clarity Gaming. He also came close to qualifying for WCS Challenger League in 2014, and had things gone differently, EliGE could have found fame and fortune in another game. </p>
-	    					</div>
-	    				</div>
-	    			</div>
-	    			<div class="news-flex-block">
-	    				<div class="news-block">
-	    					<img src="images/csImg.jpg" alt="news image" class="news-img">
-	    					<div class="news-content">
-	    						<h3>News title</h3>
-	    						<p>Team Liquid is one of the largest esports brands in the West. Our players compete at the highest level in StarCraft 2, League of Legends, Dota 2, Hearthstone, CS:GO, Heroes of the Storm, Halo, Street Fighter, Smash and PUBG.</p>
-	    					</div>
-	    				</div>
-	    			</div>
-	    			<div class="news-flex-block">
-	    				<div class="news-block">
-	    					<img src="images/csImg.jpg" alt="news image" class="news-img">
-	    					<div class="news-content">
-	    						<h3>News title</h3>
-	    						<p>Deimos Esports and Clarity Gaming. He also came close to qualifying for WCS Challenger League in 2014, and had things gone differently, EliGE could have found fame and fortune in another game. </p>
-	    					</div>
-	    				</div>
-	    			</div>
-    			</div>
-    			    		</div>
-				
-				<div class="content">
-	    			<h1>Dota 2 news</h1>
-	    			<div class="news">
-	    				<div class="news-flex-block">
-		    				<div class="news-block">
-		    					<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
-		    					<div class="news-content">
-		    						<h3>News title</h3>
-		    						<p>Matumbaman brought Necrophos to the safe lane in the series opener. He was successful early on against Chalice's Tiny, but as the mid game rolled in it really felt like Matumbaman wasn't really doing anything because he wasn't itemizing for damage.</p>
-		    					</div>
-		    				</div>
-		    			</div>
-		    			<div class="news-flex-block">
-		    				<div class="news-block">
-		    					<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
-		    					<div class="news-content">
-		    						<h3>News title</h3>
-		    						<p>Matumbaman decided to play Broodmother in both games of the series. In Game 1, his micro against Alchemist in the laning stage was beautiful as he rarely gave off easy spider kills. His decision making was a thing of beauty as Liquid foiled Secret's comeback.</p>
-		    					</div>
-		    				</div>
-		    			</div>
-		    			<div class="news-flex-block">
-		    				<div class="news-block">
-		    					<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
-		    					<div class="news-content">
-		    						<h3>News title</h3>
-		    						<p>Matumbaman brought Necrophos to the safe lane in the series opener. He was successful early on against Chalice's Tiny, but as the mid game rolled in it really felt like Matumbaman wasn't really doing anything because he wasn't itemizing for damage.</p>
-		    					</div>
-		    				</div>
-		    			</div>
-		    			<div class="news-flex-block">
-		    				<div class="news-block">
-		    					<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
-		    					<div class="news-content">
-		    						<h3>News title</h3>
-		    						<p>Matumbaman decided to play Broodmother in both games of the series. In Game 1, his micro against Alchemist in the laning stage was beautiful as he rarely gave off easy spider kills. His decision making was a thing of beauty as Liquid foiled Secret's comeback.</p>
-		    					</div>
-		    				</div>
-		    			</div>
-	    			</div>
-	    		</div>
-    	</section>
-    </content>
+	<content>
+		<section class="first">
+			<div class="content">
+				<h1>Counter-Strike news</h1>
+				<div class="news">
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/csImg.jpg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Team Liquid is one of the largest esports brands in the West. Our players compete at the highest level in StarCraft 2, League of Legends, Dota 2, Hearthstone, CS:GO, Heroes of the Storm, Street Fighter, Smash and PUBG.</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/csImg.jpg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Deimos Esports and Clarity Gaming. He also came close to qualifying for WCS Challenger League in 2014, and had things gone differently, EliGE could have found fame and fortune in another game. </p>
+							</div>
+						</div>
+					</div>
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/csImg.jpg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Team Liquid is one of the largest esports brands in the West. Our players compete at the highest level in StarCraft 2, League of Legends, Dota 2, Hearthstone, CS:GO, Heroes of the Storm, Street Fighter, Smash and PUBG.</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/csImg.jpg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Deimos Esports and Clarity Gaming. He also came close to qualifying for WCS Challenger League in 2014, and had things gone differently, EliGE could have found fame and fortune in another game. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content">
+				<h1>Dota 2 news</h1>
+				<div class="news">
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Matumbaman brought Necrophos to the safe lane in the series opener. He was successful early on against Chalice's Tiny, but as the mid game rolled in it really felt like Matumbaman wasn't really doing anything.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Matumbaman decided to play Broodmother in both games of the series. In Game 1, his micro against Alchemist in the laning stage was beautiful as he rarely gave off easy spider kills.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Matumbaman brought Necrophos to the safe lane in the series opener. He was successful early on against Chalice's Tiny, but as the mid game rolled in it really felt like Matumbaman wasn't really doing anything.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-flex-block">
+						<div class="news-block">
+							<img src="images/dotaImg.jpeg" alt="news image" class="news-img">
+							<div class="news-content">
+								<h3>News title</h3>
+								<p>Matumbaman decided to play Broodmother in both games of the series. In Game 1, his micro against Alchemist in the laning stage was beautiful as he rarely gave off easy spider kills.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</content>
 	<footer>
 		<div class="content">
 			<div class="footer-content">2018 © Taras Bilous</div>
