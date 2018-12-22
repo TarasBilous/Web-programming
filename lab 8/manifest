@@ -1,0 +1,28 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+fans.html
+matches.html
+css/style.css
+css/index.css
+css/matches.css
+css/fans.css
+css/error.css
+css/bootstrap.css
+images/black_pattern.png
+images/img-pattern.png
+images/logo.jpg
+images/main_bg_football.jpg
+images/sad.png
+js/bootstrap.js
+js/jquery.js
+js/poppe.js
+js/news.js
+js/admin.js
+
+NETWORK:
+*
+
+FALLBACK:
+. error.html
