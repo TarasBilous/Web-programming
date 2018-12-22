@@ -1,0 +1,63 @@
+section .content {
+	background: #181818;
+	padding: 20px;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+
+section h1, h4 {
+	text-align: center;
+}
+
+h4 {
+	margin: 20px 0;
+}
+
+/* * * * * * * * * * * * *
+
+		SECTION 1
+
+* * * * * * * * * * * * */
+
+.first {
+	margin: 30px 0;
+}
+
+.match-table {
+	overflow-x:auto;
+}
+
+.first table {
+	margin: 20px auto;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.first tr {
+	height: 50px;
+}
+
+.first th, td {
+	width: 220px;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.first th {
+	background: #222;
+}
+
+.first tr {
+	background: #555;
+}
+
+.first tr:nth-child(odd) {
+	background: #383838;
+}
+
+/* * * * * * * * * * * * *
+
+		SECTION 2
+
+* * * * * * * * * * * * */
