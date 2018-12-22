@@ -1,0 +1,59 @@
+.content {
+	max-width: 1300px;
+}
+
+
+/* * * * * * * * * * * * *
+
+		SECTION 1
+
+* * * * * * * * * * * * */
+
+.first {
+	margin: 30px 0;
+}
+
+.first .content {
+	background: #181818;
+	padding: 20px;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+
+.first h1 {
+	text-align: center;
+}
+
+.news {
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.news-block {
+	max-width: 250px;
+	max-height: 360px;
+	background: #0d0d0d;
+	margin: 10px auto;
+	padding: 10px;
+	overflow: hidden;
+	border-radius: 10px;
+    color: #eee;
+    cursor: pointer;
+}
+
+.news-img {
+	max-width: 100%;
+	max-height: 50%;
+}
+
+.news-block h3 {
+	text-align: center;
+	margin-top: 8px;
+	font-size: 24px;
+}
+
+.news-block p {
+	margin: 0;
+	font-size: 14px;
+	margin-top: 12px;
+}

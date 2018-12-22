@@ -1,0 +1,85 @@
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	SECTION 1
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+section.first {
+	background: url(../images/main_bg_football.jpg) center top no-repeat / cover;
+	height: 600px;
+}
+
+.first .titles {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.first .title {
+	display: inline-block;
+	background: rgba(0,0,0,.6);
+	padding: 4px;
+	font: bold 36px "Roboto", sans-serif;
+	border: 10px solid rgba(0,0,0, 0.05);
+	border-radius: 10px;
+}
+
+.first .subtitle {
+	background: rgba(0,0,0,.6);
+	border: 10px solid rgba(0,0,0, 0.05);
+	border-radius: 10px;
+	font: italic 24px "Roboto", sans-serif;
+	margin: 50px auto 0;
+	max-width: 520px;
+	padding: 8px;
+}
+
+.first .subtitle-author {
+	font-size: 16px;
+	float: right;
+	margin-top: 8px;
+}
+
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	SECTION 2
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+.second .content {
+	background: #181818;
+	padding: 30px;
+}
+
+.second h1 {
+	margin: 10px 0 20px;
+}
+
+.second p {
+	line-height: 24px;
+	color: #bbb;
+}
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	SECTION 3
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+.third .content {
+	background: #181818;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.third h1 {
+	text-align: center;
+}
+
+.g-item {
+	background: #272828 url(../images/img-pattern.png) no-repeat center / cover;
+	height: 200px;
+	margin: 10px 0;
+}
