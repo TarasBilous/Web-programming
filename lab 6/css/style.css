@@ -1,0 +1,348 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background: url(../images/black_pattern.png) center / cover;
+	color: white;
+	margin-top: -1px;
+	padding-top: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+li {
+	display: block;
+}
+
+textarea {
+	background: #222;
+	color: white;
+	padding: 8px;
+	min-height: 150px;
+	font-size: 14px;
+	border: 2px #111 solid;
+}
+
+button {
+	background: #6E64CA;
+	color: black;
+	font-size: 24px;
+	border: 5px #6E64CA solid;
+	border-radius: 8px;
+	font-weight: 600;
+}
+
+button:active {
+	background: #ef9816;
+	border-color: #ef9816;
+}
+
+.content {
+	max-width: 1300px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding-top: 1px;
+    margin-top: -1px;
+}
+
+.orange {
+	color: #F2FF2E;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+content {
+	position: relative;
+	top: 80px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	HEADER
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+header {
+	box-sizing: border-box;
+	background: black;
+	height: 80px;
+	padding: 0 50px;
+	width: 100%;
+	font-size: 16px;
+	text-transform: uppercase;
+	position: fixed;
+	z-index: 1;
+}
+
+header .content {
+	height: 100%;
+}
+
+.nav {
+	float: left;
+	position: relative;
+	height: 100%;
+}
+
+.nav ul {
+	background: black;
+}
+
+.nav li {
+	height: 100%;
+	float: left;
+}
+
+.nav a {
+	display: block;
+	height: 100%;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding: 30px 30px;
+}
+
+nav a:hover {
+	color: #F2FF2E!important;
+	background: #222;
+	animation-name: zooming;
+	animation-duration: .5s;
+}
+
+.nav .expandable {
+	transition: 0s 2s;
+	position: relative;
+}
+
+.nav .expandable:hover {
+	transition: 0;	
+}
+
+.nav .expandable:hover .sublist {
+	display: block;
+}
+
+.sublist {
+	display: none;
+	position: absolute;
+	background: black;
+	min-width: 210px;
+	top: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.sublist li {
+	float: none;
+	margin: 0;
+}
+
+.sublist a {
+	display: block;
+	padding: 12px;
+}
+
+header .content {
+	position: relative;
+}
+
+header .logo {
+	float: right;
+	height: 100%;
+	display: flex;
+   	align-items:center;
+   	margin-left: auto;
+   	position: absolute;
+   	top: 0;
+   	right: 0;
+}
+
+header .icon-logo {
+	width: 44px;
+	margin-right: 0px;
+	animation-duration: 2s;
+	width: 130px;
+	height: 60px;
+	border-radius: 100px;
+	animation: slide_rotate 2s ease-out, appear 8s;
+}
+
+
+header .title {
+	display: inline-block;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.nav-link {
+	color: #fff!important;
+}
+
+.navbar {
+	margin: 10px 0;
+}
+
+.navbar-nav {
+	background: black;
+}
+
+.navbar-nav li {
+	margin: 0 10px;
+}
+
+.nav-item {
+	height: 100%;
+	float: left;
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+.dropdown-item {
+	color: rgba(255,255,255,.5);
+}
+
+.dropdown-item:hover {
+	color: #F2FF2E;
+	background: #222;
+	animation-name: zooming;
+	animation-duration: .5s;
+}
+
+.dropdown-menu {
+	background: #000;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	FOOTER
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+footer {
+	background: black;
+	height: 80px;
+	margin-top: 120px;
+}
+
+footer .content {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.footer-title {
+	color: #aaa;
+	margin: 0 auto;
+}
+
+/*----------Animations----------*/
+
+@keyframes slide_rotate {
+	from {
+		transform: rotate(0deg);
+		opacity: 0.0;     
+	}
+	to {
+		transform: rotate(360deg);
+		opacity: 1;     
+	}
+}
+
+@keyframes zooming {
+	from {
+		transform: scale(1.0);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1.0);
+	}
+}
+
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/*@media  (min-width:320px) {
+  .nav li {
+    float: none;
+  }
+
+  .nav ul {
+  	display: none;
+  }
+
+  .nav .hamburger {
+  	display: block;
+  }
+
+  .sublist {
+      top: 0;
+      right: -206px;
+  }
+
+  .first .title {
+  	font-size: 25px;
+  }
+}
+
+@media (max-width: 950px)  {
+  .logo .title {
+  	display: none;
+  }
+}
+
+@media (min-width: 780px) {
+  .nav li {
+    float: left;
+  }
+
+  .nav ul {
+  	display: block;
+  }
+
+  .nav .hamburger {
+  	display: none;
+  }
+
+  .sublist {
+      top: 80px;
+      left: 0;
+      right: 0;
+  }
+
+  .first .title {
+  	font-size: 40px;
+  }
+}
+*/
